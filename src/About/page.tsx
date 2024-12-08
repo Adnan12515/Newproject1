@@ -12,20 +12,17 @@ const About = () => {
             We Create the best <span className="text-yellow-500">foody product</span>
           </h1>
           <p className="text-gray-400 mt-2">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque <br /> diam
-            pellentesque  bibendum non dui volutpat fringilla bibendum.<br /> Urna, elit
-            augue urna, vitae feugiat pretium donec id elementum.<br /> Ultrices mattis
-            sed vitae mus risus. Lacus nisi, et ac dapibus.
-          </p>
+            From witty to serious reflections on the fast food industry<br/> finding the right words can elevate your post and resonate with your audience.  </p>
           <ul className="space-y-2 mt-3 mb-3">
             <li className="">
-              <span className="text-green-400 mr-2">✔</span> Lacus nisi, et ac dapibus sit eu velit in consequat.
+              <span className="text-green-400 mr-2">✔</span> 
+              If the lake is not, and the protein is the football he wants in the result.
             </li>
             <li className="">
-              <span className="text-green-400 mr-2">✔</span> Quisque diam pellentesque bibendum non dui volutpat fringilla.
+              <span className="text-green-400 mr-2">✔</span>"The best part of waking up is Folgers in your cup."
             </li>
             <li className="">
-              <span className="text-green-400 mr-2">✔</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              <span className="text-green-400 mr-2">✔</span> "Happiness is a well-made sandwich."
             </li>
           </ul>
           <button className="bg-orange-500 hover:bg-orange-600 text-black font-bold mt-4 py-2 px-6 rounded-md">
@@ -42,7 +39,7 @@ const About = () => {
             height={100}
             className="rounded-lg"
           />
-        
+
         </div>
       </div>
     </section>

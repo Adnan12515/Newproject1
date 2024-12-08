@@ -2,6 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 const Hero = () => {
   return (
+    
     <div className='bg-black'>
       <main className="flex flex-col lg:flex-row items-center justify-between ml-14">
         {/* Left Section */}
@@ -13,8 +14,7 @@ const Hero = () => {
             <span className="text-yellow-500 ">The Art of speed food Quality</span>
           </h1>
           <p className="text-gray-400 mt-4">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Varius sed
-            pharetra dictum neque massa congue.
+          The customer is very important, the customer will be followed by the customer.
           </p>
           <button className="mt-6 bg-orange-500 hover:bg-orange-600 text-black font-bold py-2 px-6 rounded-md">
             See Menu
