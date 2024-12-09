@@ -16,13 +16,13 @@ const About = () => {
           <ul className="space-y-2 mt-3 mb-3">
             <li className="">
               <span className="text-green-400 mr-2">✔</span> 
-              If the lake is not, and the protein is the football he wants in the result.
+              If the lake is not, and the protein is the football he wants in the result
             </li>
             <li className="">
-              <span className="text-green-400 mr-2">✔</span>"The best part of waking up is Folgers in your cup."
+              <span className="text-green-400 mr-2">✔</span>The best part of waking up is Folgers in your cup
             </li>
             <li className="">
-              <span className="text-green-400 mr-2">✔</span> "Happiness is a well-made sandwich."
+              <span className="text-green-400 mr-2">✔</span> Happiness is a well-made sandwich
             </li>
           </ul>
           <button className="bg-orange-500 hover:bg-orange-600 text-black font-bold mt-4 py-2 px-6 rounded-md">
