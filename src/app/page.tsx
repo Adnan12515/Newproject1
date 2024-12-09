@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import About from "@/About/page";
 import Foodcat from "@/components/Foodcat";
 import Clients from "@/components/Clients";
+import Footer from "@/components/Footer";
 
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
     <About />
     <Foodcat />
     <Clients />
+    <Footer />
     
   </div>
   );
