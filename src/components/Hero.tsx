@@ -8,7 +8,7 @@ const Hero = () => {
         {/* Left Section */}
         <div className="max-w-lg text-center lg:text-left">
           <h1 className="text-4xl lg:text-5xl font-bold">
-            <span className="text-orange-400 font-serif text-2xl">It's Quick & Amusing!</span>
+            <span className="text-orange-400 font-serif text-2xl">It&apos;s Quick & Amusing!</span>
             <br/>
             
             <span className="text-yellow-500 ">The Art of speed food Quality</span>
