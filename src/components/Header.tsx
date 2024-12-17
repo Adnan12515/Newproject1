@@ -12,12 +12,12 @@ const Header = () => {
             <header className="flex justify-between items-center py-4">
                 <nav className="flex space-x-6">
                     <a href="#" className="hover:text-orange-500">Home</a>
-                    <a href="#" className="hover:text-orange-500">Menu</a>
+                    <Link href="/Menu" className="hover:text-orange-500">Menu</Link>
                     <a href="#" className="hover:text-orange-500">Blog</a>
                     <a href="#" className="hover:text-orange-500">Pages</a>
-                    <Link href="/about" className="hover:text-orange-500">About</Link>
+                    <Link href="About" className="hover:text-orange-500">About</Link>
                     <a href="#" className="hover:text-orange-500">Shop</a>
-                    <a href="#" className="hover:text-orange-500">Contact</a>
+                    <a href="Contact" className="hover:text-orange-500">Contact</a>
                 </nav>
                 <div className='relative'>
                     <input
