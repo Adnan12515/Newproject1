@@ -8,7 +8,7 @@ const page = () => {
                     <p className='font-normal text-xl text-yellow-400'>Do you have questions, comments or feedback for us? Send them our way!
                     Our job is to save you time and money, and if there is a way we can do it better, we want to know.</p>
                     <br />
-                    <p className='font-normal text-xl text-yellow-400 py-2 space-x-2 pl-3'>Before you contact us, please start with our FAQ page. We've probably already answered your question there.
+                    <p className='font-normal text-xl text-yellow-400 py-2 space-x-2 pl-3'>Before you contact us, please start with our FAQ page. We have probably already answered your question there.
                         <br />
                         You can get in touch with Tuckshop.com
                         <br />

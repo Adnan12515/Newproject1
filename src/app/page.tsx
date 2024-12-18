@@ -2,7 +2,6 @@ import Hero from "@/components/Hero";
 import Foodcat from "@/components/Foodcat";
 import Clients from "@/components/Clients";
 import About from "./About/page";
-import Link from "next/link";
 import { Contact } from "lucide-react";
 
 

@@ -27,7 +27,7 @@ const Hero = () => {
             src="/image1.png"
             alt="Delicious Food"
             width={500}
-            height={500}
+            height={600}
             className="rounded-lg"/>
           {/* Circular Decorative Images */}
         </div>
@@ -37,7 +37,7 @@ const Hero = () => {
             src="/image2.png"
             alt="Small Dish"
             width={300}
-            height={300}
+            height={400}
             className="  " />
         </div>
 

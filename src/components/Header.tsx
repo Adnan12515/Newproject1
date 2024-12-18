@@ -11,7 +11,7 @@ const Header = () => {
             {/* Header */}
             <header className="flex justify-between items-center py-4">
                 <nav className="flex space-x-6">
-                    <a href="#" className="hover:text-orange-500">Home</a>
+                    <Link  href="/" className="hover:text-orange-500">Home</Link>
                     <Link href="/Menu" className="hover:text-orange-500">Menu</Link>
                     <a href="#" className="hover:text-orange-500">Blog</a>
                     <a href="#" className="hover:text-orange-500">Pages</a>

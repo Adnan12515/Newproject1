@@ -10,7 +10,7 @@ export default function Clients() {
   return (
 
     <div>
-    <div className=' h-[100] relative  sm:flex-col-1 md:flex text-6xl text-yellow-500 bg-black'>
+    <div className=' w-full   sm:flex-col-1 md:flex text-6xl text-yellow-500 bg-black'>
         <PiChefHat className='ml-48'/>
         <ImSpoonKnife className='ml-56'/>
         <IoFastFoodOutline className='ml-60' />

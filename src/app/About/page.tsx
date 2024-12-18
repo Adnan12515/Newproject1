@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import Link from 'next/link'
+
 const About = () => {
     return (
 
@@ -17,7 +17,7 @@ const About = () => {
                 </div>
 
                 <div className=' md:w-[40%]'>
-                    <img src="a-image1.jpg" className='rounded-md h-[300px] w-[300px] py-8 justify-center' />
+                    <Image src="/a-image1.jpg" height={100} width={200} className='rounded-md h-[300px] w-[300px] py-8 justify-center' alt="pic"/>
                 </div>
             </div>
 
@@ -33,14 +33,14 @@ const About = () => {
                 </div>
 
                 <div className=' md:w-[40%]'>
-                    <img src="a-image2.jpg" className='rounded-md h-[300px] w-[300px] py-12' />
+                    <Image src="/a-image2.jpg" height={100} width={200} className='rounded-md h-[300px] w-[300px] py-12' alt="photo"/>
                 </div>
             </div>
 
             <div className="gap-[200px] md:flex flex-col-2 items-center justify-between pr-4 pt-4">
                 {/* Left Text Section */}
                 <div className="space-y-3 md:w-[60%]">
-                    <h2 className="text-orange-600 font-semibold text-3xl underline underline-offset-1 text-center">What We Offer</h2>
+                    <h2 className= "text-orange-600 font-semibold text-3xl underline underline-offset-1 text-center">What We Offer</h2>
                     
                     <h1 className="text-2xl font-bold py-3">
                     Recipes You <span className="text-yellow-500">will love</span></h1>
@@ -58,7 +58,7 @@ const About = () => {
                 </div>
 
                 <div className=' md:w-[40%]'>
-                    <img src="a-image3.jpg" className='rounded-md h-[370px] w-[300px] mt-12' />
+                    <Image src="/a-image3.jpg" height={100} width={200} className='rounded-md h-[370px] w-[300px] mt-12' alt="v" />
                 </div>
             </div>
 

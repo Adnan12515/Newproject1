@@ -1,4 +1,6 @@
 import React from 'react'
+import Image from 'next/image'
+
 
 const page = () => {
   return (
@@ -10,14 +12,14 @@ const page = () => {
       <div>
         <p className='text-4xl font-bold text-center justify-center text-yellow-500 py-3 underline underline-offset-4'>Our Menu</p>
 
-        <img src='m-image1.jpg' className='md:rounded md:w-full md:h-[600px] sm:w-[500] sm:h-[250] ' />
+        <Image src='/m-image1.jpg' height={600} width={400} className='md:rounded md:w-full md:h-[600px] sm:w-[500] sm:h-[250] ' alt="j"/>
       </div>
 
 
       <div className="gap-[200px] md:flex flex-col-2 pr-16 pl-4 mt-20">
 
         <div className='md:w-[50%] text-center items-center'>
-          <img src='start-1.jpg' className='md:pl-24 md:w-[500] h-[250] rounded-md' />
+          <Image src='/start-1.jpg' height={100} width={200} className='md:pl-24 md:w-[500] h-[250] rounded-md' alt="h" />
         </div>
 
         <div className='md:w-[50%] md:font-medium text-2xl text-center items-center'>
@@ -27,7 +29,6 @@ const page = () => {
           <p className='font-normal text-xl hover hover:text-orange-400'>This indulgent terrine is an impressive starter recipe to make for your guests. Packed with rich meats and pistachio jewels, this is a starter your guests will remember.</p>
         </div>
       </div>
-
 
       <div className="gap-[200px] md:flex flex-col-2 pr-16 pl-4 mt-20">
 
@@ -39,16 +40,15 @@ const page = () => {
         </div>
 
         <div className='md:w-[50%] text-center items-center'>
-          <img src='start-2.jpg' className='md:pl-24 md:w-[500] h-[250] rounded-md' />
+          <Image src='/start-2.jpg' height={100} width={200} className='md:pl-24 md:w-[500] h-[250] rounded-md'alt="u" />
         </div>
-
 
       </div>
 
       <div className="gap-[200px] md:flex flex-col-2 pr-16 pl-4 mt-20">
 
         <div className='md:w-[50%] text-center items-center'>
-          <img src='start-3.jpg' className='md:pl-24 md:w-[500] h-[250] rounded-md' />
+          <Image src='/start-3.jpg'height={100} width={200} className='md:pl-24 md:w-[500] h-[250] rounded-md'alt="t" />
         </div>
 
         <div className='md:w-[50%] md:font-medium text-2xl text-center items-center'>
@@ -70,7 +70,7 @@ const page = () => {
         </div>
 
         <div className='md:w-[50%] text-center items-center'>
-          <img src='start-4.jpg' className='md:pl-24 md:w-[500] h-[250] rounded-md' />
+          <Image src='/start-4.jpg'height={100} width={200} className='md:pl-24 md:w-[500] h-[250] rounded-md' alt="e"/>
         </div>
       </div>
 
@@ -78,7 +78,7 @@ const page = () => {
       <div className="gap-[200px] md:flex flex-col-2 pr-16 pl-4 mt-20">
 
         <div className='md:w-[50%] text-center items-center'>
-          <img src='start-5.jpg' className='md:pl-24 md:w-[500] h-[250] rounded-md' />
+          <Image src='/start-5.jpg' height={100} width={200} className='md:pl-24 md:w-[500] h-[250] rounded-md' alt="r" />
         </div>
 
         <div className='md:w-[50%] md:font-medium text-2xl text-center items-center'>
